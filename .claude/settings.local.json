@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install @ai-sdk/openai)",
+      "Bash(npm view @ai-sdk/openai versions --json)",
+      "Bash(node -e \"const v=require\\(''fs''\\).readFileSync\\(''/dev/stdin'',''utf8''\\); const arr=JSON.parse\\(v\\); console.log\\(arr.filter\\(x=>x.startsWith\\(''1.''\\)\\).slice\\(-10\\).join\\(''\\\\n''\\)\\)\")",
+      "Bash(npm install @ai-sdk/openai@1.3.22)"
+    ]
+  }
+}

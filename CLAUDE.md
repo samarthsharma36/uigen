@@ -62,4 +62,4 @@ Use comments sparingly — only for complex logic that isn't self-evident.
 
 ### Environment
 
-Requires `ANTHROPIC_API_KEY` in `.env`. Falls back to a mock provider if missing.
+Requires `OPENAI_API_KEY` in `.env`. Falls back to a mock provider if missing. Model is `gpt-4o` (set in `src/lib/provider.ts`).
